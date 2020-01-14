@@ -21,7 +21,6 @@ This will return the decision variable and the maximum/minumum value in the foll
 
 * __Plotting the Feasible Region__
 
-To plot the same thing <br>
 Syntax:
 ```MATLAB
 k := [{<constraint>}, <obj function>]:
