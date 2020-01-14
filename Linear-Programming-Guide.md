@@ -13,3 +13,11 @@ For Example:
 linopt::minimize([{c1 + c2 <= 6, c2 <= 15}, -c1 - c2])
 ```
 This will return - `[OPTIMAL, {c1 = 0, c2 = 6}, -6]`
+
+To plot the same thing
+Syntax:
+```MATLAB
+k := [{<constraint>}, <obj function>]:
+g := linopt::plot_data(k, [x, y]):
+plot(g):
+```
