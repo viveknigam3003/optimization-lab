@@ -14,7 +14,7 @@ linopt::minimize([{c1 + c2 <= 6, c2 <= 15}, -c1 - c2])
 ```
 This will return - `[OPTIMAL, {c1 = 0, c2 = 6}, -6]`
 
-To plot the same thing
+To plot the same thing <br>
 Syntax:
 ```MATLAB
 k := [{<constraint>}, <obj function>]:
