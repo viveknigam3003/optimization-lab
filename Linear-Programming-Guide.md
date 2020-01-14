@@ -3,7 +3,7 @@ The following is meant to be performed in MuPAD application for MATLAB R2015b.
 
 ## Maximize and Minimize
 
-__Finding Maximum and Minimum__
+* __Finding Maximum and Minimum__
 
 Syntax:
 ```MATLAB
@@ -19,7 +19,7 @@ This will return the decision variable and the maximum/minumum value in the foll
 [OPTIMAL, {c1 = 0, c2 = 6}, -6]
 ```
 
-__Plotting the Feasible Region__
+* __Plotting the Feasible Region__
 
 To plot the same thing <br>
 Syntax:
@@ -28,7 +28,7 @@ k := [{<constraint>}, <obj function>]:
 g := linopt::plot_data(k, [x, y]):
 plot(g):
 ```
-__Finding the corner points__
+* __Finding the corner points__
 
 ```MATLAB
 linopt::corners(k, [x, y])
